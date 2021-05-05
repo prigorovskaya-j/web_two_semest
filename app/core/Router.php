@@ -1,9 +1,8 @@
 <?php
-echo 'in router';
-echo '<br>';
     class Router{
-        function _construct(){
+        function __construct(){
             echo 'ya class';
             echo '<br>';
         }
     }
+
