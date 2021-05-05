@@ -1,0 +1,12 @@
+.popover {
+    position: absolute;
+    margin-left: 130%; 
+    margin-bottom: 150%;    
+    width: 100%;    
+    z-index: 9999;    
+    background-color: rgba(202, 216, 3, 0.5);    
+    padding: 5px 10px 5px 10px;    
+    color: black;    
+    opacity: 0.6;    
+    border-radius: 5px;
+}

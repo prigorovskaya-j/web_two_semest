@@ -1,0 +1,40 @@
+.num{
+    width: 25px;
+    height: 30px;
+    text-align: center;
+    float:left;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.num:hover{
+    background-color: #feb386;
+    cursor: pointer;
+}
+.raw{
+    clear: both;
+}
+.num_zero{
+    width: 28px;
+    height: 28px;
+    float: left;
+    visibility: hidden;
+}
+.select{
+    margin: 3%;
+    float: left;
+    border-color: #feb386;
+    border-style: solid;
+    border-radius: 2px;
+}
+.days{
+    clear: both;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #000000;
+}
+.calendar{
+    padding: 0.5%;
+    border-width: 1px;
+    border-color: #feb386;
+    border-style: solid;
+    border-radius: 2px;
+    visibility: hidden;
+}

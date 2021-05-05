@@ -1,0 +1,44 @@
+.fullPhoto {
+    position: absolute;
+    margin-left: 20%;
+    display: none;
+}
+
+.big {
+    width: 900px;
+    height: 600px;
+}
+
+.exit-f {
+    float: right;
+    margin-left: 10%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: red;
+}
+
+.blocks {
+    float: left;
+    width: 100;
+    margin-right: 10px;
+    color: white;
+    font-size: xx-large;
+}
+
+#left {
+    cursor: pointer;
+}
+
+#right {
+    text-align: right;
+    float: right;
+    margin-left: 19%;
+    cursor: pointer;
+}
+
+#text {
+    width: 300px;
+    text-align: center;
+    margin-left: 32%;
+}
