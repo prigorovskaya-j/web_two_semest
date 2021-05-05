@@ -1,11 +1,6 @@
 <?php
-    ini_set('display_errors',1);
-    echo  'proba';
-echo '<br>';
-    error_reporting(E_ALL);
-    function debug($str){
-        echo '<pre>';
-        var_dump($str);
-        echo '</pre>';
-        exit;
-    }
+require_once 'app/core/Model.php';
+require_once 'app/core/View.php';
+require_once 'app/core/Controller.php';
+require_once 'app/core/Route.php';
+Route::start(); // запускаем маршрутизатор
